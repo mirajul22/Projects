@@ -1,0 +1,11 @@
+`<img src="${IMGPATH + item.poster_path}" alt="img1" />
+    <div class="overley" id="over">
+      <div class="title">
+        <h2>${item.title}</h2>
+        <span>Rating : ${Math.round(item.vote_average)}</span>
+      </div>
+      <br>
+      <h3>${item.overview}</h3>
+     
+    </div>`;
+    Movies.appendChild(box);
